@@ -1,0 +1,81 @@
+.navbar {
+    height: 100vh;
+    background: radial-gradient(103.14% 190.39% at -3.14% 1.2%, #0067FF 0%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #201F1F;
+nav {
+    max-width: 75%;
+    
+    color:white;
+    margin-inline:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    
+
+    header {
+        flex-grow:1;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    ul {
+        list-style-type:none;
+        font-weight:400;
+        display:flex;
+        justify-content: center;
+        flex-grow: 2;
+
+        li {
+            margin-left:30px;
+        }
+
+    }
+    div {
+        display:flex;
+        justify-content: flex-end;
+        button {
+            width:123px;
+            background-color: white;
+            font-weight: 500;
+            border:0;
+            height:35px;
+            border-radius: 8px;
+        }
+        :first-child {
+            color:#0067FF;
+            margin-left:30px;
+        }
+        :nth-child(2) {
+            background:#0067FF;
+            color:white;
+            margin-left:10px;
+        }
+    }
+}
+
+    .intro_section {
+        font-size: 60px;
+        max-width: 75%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color:white;
+        margin-inline:auto;
+        margin-top: 180px;
+
+        :first-child {
+            padding:10px;
+        }
+        
+        button {
+            width:200px;
+            border-radius :8px;
+            border:0;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: #070C31;
+            height:46px;
+            color:white;
+        }
+        
+    }
+}

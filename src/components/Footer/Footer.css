@@ -1,0 +1,24 @@
+footer {
+  background-color: #050D31;
+  color: white;
+}
+footer div {
+  max-width: 75rem;
+  margin-inline: auto;
+  display: grid;
+  grid-auto-flow: column;
+  padding-block: 70px;
+  grid-auto-columns: 1fr;
+}
+footer div ul {
+  list-style-type: none;
+  text-align: center;
+  font-weight: 300;
+}
+footer div ul .header {
+  font-size: 18px;
+}
+footer div ul li {
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=Footer.css.map */

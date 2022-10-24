@@ -1,0 +1,110 @@
+.text-blue {
+    color: #0067FF;
+}
+main {
+    display: grid;
+    gap: 200px;
+    padding-block: 200px;
+    section {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        max-width: 75rem;
+        margin-inline: auto;
+        column-gap: 20px;
+        align-items: center;
+
+        .content-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: stretch;
+            row-gap: 40px;
+        }
+
+        h2 {
+            font-size: 45px;
+            line-height: 70px;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 35px;
+        }
+    }
+
+
+}
+
+.main-offer-section {
+    background: radial-gradient(103.14% 190.39% at -3.14% 1.2%, #0067FF 0%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #201F1F;
+    .offer-section {
+        display: grid;
+    height: 100vh;
+
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        padding-block: 100px;
+        column-gap: 20px;
+        max-width: 75rem;
+        margin-inline: auto;
+        align-items: center;
+
+        .content-section {
+            display: grid;
+            row-gap: 40px;
+            color:white;
+            letter-spacing: -0.58px;
+            font-weight: 400;
+
+            h2 {
+                font-size: 50px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.cta {
+    max-width: 75rem;
+    margin-inline:auto;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    .column-1 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .column-2 {
+        overflow-wrap: break-word;
+        font-size: 1.1rem;
+        letter-spacing: 0.01em;
+        color: #1D1D1D;
+        display: grid;
+        row-gap: 30px;
+        color: rgb(182, 182, 182);
+        width: 100%;
+
+        div {
+            display: flex;
+            column-gap: 10px;
+        }
+        
+        input {
+            padding-block: 10px;
+            padding-inline:15px;
+            width: 50%;
+        }
+
+        button {
+            padding-inline:30px;
+            background-color: #0067FF;
+            color:white;
+            border:0;
+            padding-block: 7px;
+            border-radius: 8px;
+        }
+    }
+}
