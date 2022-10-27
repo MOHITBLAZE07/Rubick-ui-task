@@ -1,0 +1,73 @@
+.main {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  width: 60%;
+  margin-inline: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+}
+.main .text-blue {
+  color: #0067FF;
+  margin-left: 5px;
+}
+.main .section-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.main .section-1 div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main .section-1 div p {
+  font-weight: 400;
+}
+.main .section-1 div div {
+  position: relative;
+}
+.main .section-1 div div span {
+  width: 80%;
+  left: 38px;
+  border-top: 10px solid #0368FF;
+  padding-block: 15px;
+  margin-inline: auto;
+  background: white;
+  position: absolute;
+  bottom: -25px;
+  text-align: center;
+}
+.main .section-1 div img {
+  width: 100%;
+  height: auto;
+}
+.main .section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.main .section-2 div {
+  text-align: center;
+  display: grid;
+  row-gap: 30px;
+}
+.main .section-2 div p {
+  font-size: 0.8rem;
+}
+.main .heading-1, .main .heading-2 {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 90px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.main .heading-2 {
+  margin-top: 50px;
+}/*# sourceMappingURL=About.css.map */

@@ -4,10 +4,22 @@
     box-sizing: border-box;
 }
 
+img {
+    width:100%;
+    height:auto;
+}
+
 html, body {
     height:100%;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+.link {
+    color:white;
+    text-decoration: none;
+}
+.link:hover {
+    color: rgb(171, 171, 171);
 }

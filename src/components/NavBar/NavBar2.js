@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './NavBar.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../NavBar/NavBar2.css';
 
-export default function NavBar() {
+export default function NavBar2({title}) {
   return (
-    <div className='navbar'>
+    <div className='navbar2'>
         <nav>
             
             <header>RUBICK.AI</header>
@@ -20,15 +20,7 @@ export default function NavBar() {
                 <button>Sign up</button>
             </div>
         </nav>
-        <section className='intro_section'>
-            <div>
-                <p>The fastest cataloguing solution for you</p>
-                <button>sign up</button>
-            </div>
-            <div>
-                <img src='https://via.placeholder.com/550x400' alt='placeholder'/>
-            </div>
-        </section>
+        <h1>{title}</h1>
     </div>
   )
 }

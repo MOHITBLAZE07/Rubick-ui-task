@@ -1,0 +1,60 @@
+.navbar2 {
+  height: 35vh;
+  background: radial-gradient(103.14% 190.39% at -3.14% 1.2%, #0067FF 0%, #000000 100%), #201F1F;
+}
+.navbar2 nav {
+  max-width: 75%;
+  color: white;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+.navbar2 nav header {
+  flex-grow: 1;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.navbar2 nav ul {
+  list-style-type: none;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  flex-grow: 2;
+  cursor: pointer;
+}
+.navbar2 nav ul li {
+  margin-left: 30px;
+}
+.navbar2 nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar2 nav div button {
+  width: 123px;
+  background-color: white;
+  font-weight: 500;
+  border: 0;
+  height: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.navbar2 nav div :first-child {
+  color: #0067FF;
+  margin-left: 30px;
+}
+.navbar2 nav div :nth-child(2) {
+  background: #0067FF;
+  color: white;
+  margin-left: 10px;
+}
+.navbar2 h1 {
+  text-align: center;
+  margin-top: 60px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+}/*# sourceMappingURL=NavBar2.css.map */
