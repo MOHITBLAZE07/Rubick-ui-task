@@ -1,7 +1,11 @@
 import './About.css';
 
 import React from 'react'
-
+import subhajit from '../../assets/8.png';
+import kiran from '../../assets/9.png';
+import hena from '../../assets/10.png';
+import jeeva from '../../assets/11.png';
+import mahesh from '../../assets/12.png';
 export default function About() {
   return (
     <div className='main'>
@@ -11,7 +15,8 @@ export default function About() {
         <div className='section-1'>
             <div>
                 <div>
-                    <img src="https://via.placeholder.com/1000x1100" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/1000x1100" alt='placeholder'/> */}
+                    <img src= {subhajit} alt="image" />
                     <span>
                         <h3>Subhajit Mukherjee</h3>
                         <p>Co-founder & CEO</p>
@@ -21,7 +26,8 @@ export default function About() {
             </div>
             <div>
             <div>
-                    <img src="https://via.placeholder.com/1000x1100" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/1000x1100" alt='placeholder'/> */}
+                    <img src= {kiran} alt="image" />
                     <span>
                         <h3>Kiran Ramakrishna</h3>
                         <p>Co-founder & CEO</p>
@@ -35,21 +41,24 @@ export default function About() {
         </div>
         <div className='section-2'>
             <div>
-                <img src="https://via.placeholder.com/1000x1000" alt='placeholder'/>
+                {/* <img src="https://via.placeholder.com/1000x1000" alt='placeholder'/> */}
+                <img src= {hena} alt="image" />
                 <span>
                     <h4>Hena Zea Azmi</h4>
                     <p>Product Owner</p>
                 </span>
             </div>
             <div>
-                <img src="https://via.placeholder.com/1000x1000" alt='placeholder'/>
+                {/* <img src="https://via.placeholder.com/1000x1000" alt='placeholder'/> */}
+                <img src= {jeeva} alt="image" />
                 <span>
                     <h4>Jeeva Subramanian</h4>
                     <p>QA Lead</p>
                 </span>
             </div>
             <div>
-                <img src="https://via.placeholder.com/1000x1000" alt='placeholder'/>
+                {/* <img src="https://via.placeholder.com/1000x1000" alt='placeholder'/> */}
+                <img src= {mahesh} alt="image" />
                 <span>
                     <h4>Mahesh V N</h4>
                     <p>Senior MERN Developer</p>

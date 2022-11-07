@@ -1,6 +1,128 @@
-.features {
-  height: 400px;
+.first-content {
+  background: linear-gradient(89.17deg, rgba(7, 12, 49, 0.304) 95.94%, rgba(0, 103, 255, 0.1) 204.64%);
+  background: url("../../assets/6.jpg");
+}
+.first-content .heading {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 200;
+  line-height: 70px;
+  letter-spacing: 0.04em;
+  padding-block: 3rem;
+  color: white;
+}
+.first-content .main-container {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+}
+.first-content .main-container .sub-container-1, .first-content .main-container .sub-container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  align-items: flex-start;
+}
+.first-content .main-container .sub-container-1 .content-1, .first-content .main-container .sub-container-1 .content-2, .first-content .main-container .sub-container-2 .content-1, .first-content .main-container .sub-container-2 .content-2 {
+  display: grid;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(36.5px);
+          backdrop-filter: blur(36.5px);
+  border-radius: 25px;
+  padding-block: 20px;
+  justify-content: center;
+}
+.first-content .main-container .sub-container-1 .content-1 :first-child, .first-content .main-container .sub-container-1 .content-2 :first-child, .first-content .main-container .sub-container-2 .content-1 :first-child, .first-content .main-container .sub-container-2 .content-2 :first-child {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.first-content .main-container .sub-container-1 .content-1 :last-child, .first-content .main-container .sub-container-1 .content-2 :last-child, .first-content .main-container .sub-container-2 .content-1 :last-child, .first-content .main-container .sub-container-2 .content-2 :last-child {
+  display: flex;
+  padding-inline: 20px;
   justify-content: center;
   align-items: center;
+}
+.first-content .main-container .sub-container-1 .content-1 :last-child :last-child, .first-content .main-container .sub-container-1 .content-2 :last-child :last-child, .first-content .main-container .sub-container-2 .content-1 :last-child :last-child, .first-content .main-container .sub-container-2 .content-2 :last-child :last-child {
+  margin-left: -10px;
+  font-size: 12px;
+}
+.first-content .main-container .sub-container-1 .content-1 img, .first-content .main-container .sub-container-1 .content-2 img, .first-content .main-container .sub-container-2 .content-1 img, .first-content .main-container .sub-container-2 .content-2 img {
+  width: 70px;
+  height: 70px;
+}
+.first-content .main-container .sub-container-1 .contents-left, .first-content .main-container .sub-container-1 .contents-right, .first-content .main-container .sub-container-2 .contents-left, .first-content .main-container .sub-container-2 .contents-right {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(36.5px);
+          backdrop-filter: blur(36.5px);
+  border-radius: 25px;
+  border-radius: 11px;
+  margin-block: 30px;
+  padding: 10px;
+  width: 360px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-content .main-container .sub-container-1 img, .first-content .main-container .sub-container-2 img {
+  width: 70px;
+  height: 70px;
+}
+
+.features {
+  background: radial-gradient(103.14% 190.39% at -3.14% 1.2%, #0067FF 0%, #0c0c0c 100%), #201F1F;
+}
+.features h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 200;
+  line-height: 70px;
+  color: white;
+  letter-spacing: 0.04em;
+}
+.features h3 {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 70px;
+  color: white;
+  margin-left: 150px;
+  letter-spacing: 0.04em;
+}
+
+main {
+  display: grid;
+  gap: 100px;
+  padding-block: 100px;
+}
+main section {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  max-width: 75rem;
+  margin-inline: auto;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  align-items: center;
+}
+main section .content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  row-gap: 40px;
+}
+main section ul {
+  font-size: 1rem;
+  line-height: 35px;
+  color: white;
+  max-width: 300px;
+  margin-left: 25%;
+}
+main section ul li {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=Features.css.map */

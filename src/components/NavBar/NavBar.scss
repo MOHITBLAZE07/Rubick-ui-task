@@ -1,6 +1,12 @@
 .navbar {
     height: 100vh;
     background: radial-gradient(103.14% 190.39% at -3.14% 1.2%, #0067FF 0%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #201F1F;
+    
+    button:hover{
+        cursor: pointer;
+    }
+
+
 nav {
     max-width: 75%;
     

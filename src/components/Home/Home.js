@@ -1,5 +1,7 @@
 import React from 'react'
 import './Home.css'
+import image from '../../assets/14.jpg';
+
 
 export default function Home() {
   return (
@@ -11,12 +13,14 @@ export default function Home() {
                 <p>Rubick platform provides cataloguing solutions for all in the global multiverse marketplace. Weather you are a convenient store wanting to sell online or an international brand wanting to sell across geographies and languages, Rubick is your central place to manage your product information.</p>
             </div>
             <div>
-                <img src="https://via.placeholder.com/600x400"/>
+                {/* <img src="https://via.placeholder.com/600x400"/> */}
+                <img src={image} alt='logo'/>
             </div>
         </section>
         <section>
             <div>
-                <img src="https://via.placeholder.com/600x400"/>
+                {/* <img src="https://via.placeholder.com/600x400"/> */}
+                <img src={image} alt='logo'/>
             </div>
             <div className="content-section">
                 <h2><span className="text-blue">Single source</span> of truth</h2>
@@ -33,7 +37,8 @@ export default function Home() {
                 <p>By aggregating customer activities from different source systems, the Rubick platform, provides a consistent and unified view of all related data for your catalogs.</p>
             </div>
             <div>
-                <img src="https://via.placeholder.com/600x400" alt='placeholder'/>
+                <img src={image} alt='logo'/>
+                {/* <img src="https://via.placeholder.com/600x400" alt='placeholder'/> */}
             </div>
         </section>
     </div>

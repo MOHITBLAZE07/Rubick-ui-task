@@ -13,10 +13,10 @@ export default function Footer() {
             </ul>
             <ul>
                 <li className="header">Company</li>
-                <li>Home</li>
-                <li>Product</li>
-                <li>Features</li>
-                <li>About us</li>
+                <NavLink to='/' style={{color:"white", textDecoration:'none'}}><li>Home</li></NavLink>
+                <NavLink to='/product' style={{color:"white", textDecoration:'none'}}><li>Product</li></NavLink>
+                <NavLink to='/features' style={{color:"white", textDecoration:'none'}}><li>Features</li></NavLink>
+                <NavLink to='/about' style={{color:"white", textDecoration:'none'}}><li>About us</li></NavLink>
                 <li>Contact</li>
             </ul>
             <ul>

@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import './NavBar.css'
+import { Link } from 'react-router-dom';
+import './NavBar.css';
+import image from '../../assets/14.jpg';
 
 export default function NavBar() {
   return (
@@ -26,7 +27,8 @@ export default function NavBar() {
                 <button>sign up</button>
             </div>
             <div>
-                <img src='https://via.placeholder.com/550x400' alt='placeholder'/>
+                {/* <img src='https://via.placeholder.com/550x400' alt='placeholder'/> */}
+                <img src={image} alt='placeholder'/>
             </div>
         </section>
     </div>

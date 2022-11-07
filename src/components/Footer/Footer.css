@@ -21,4 +21,7 @@ footer div ul .header {
 footer div ul li {
   margin-bottom: 14px;
   font-size: 0.9rem;
+}
+footer div ul li:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=Footer.css.map */
