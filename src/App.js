@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer.js';
 import Terms from './components/Terms/Terms.js';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   useLocation,
@@ -42,7 +42,6 @@ function App() {
             <Route path = '/about' element={<About/>} />
             <Route path = '/clients' element={<Clients/>} />
             <Route path = '/terms' element={<Terms/>} />
-
           </Routes>
         <Footer />
     </>

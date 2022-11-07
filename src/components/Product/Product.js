@@ -2,6 +2,7 @@ import React from 'react'
 import './product.css';
 import pic from '../../assets/7.jpg';
 import image from '../../assets/14.jpg';
+import logo from '../../assets/15.png';
 
 function Product() {
   return (
@@ -60,7 +61,8 @@ function Product() {
           <div className='content-1'>
             <div>Rubick Bible</div>
             <div>
-              <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+              {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+              <img src={logo} alt='placeholder'/>
               <p>
                 A global database for all products that are online
                 </p>
@@ -69,7 +71,8 @@ function Product() {
           <div className='content-2'>
           <div>Rubick Atlas</div>
             <div>
-              <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+              {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+              <img src={logo} alt='placeholder'/>
               <p>
               Master guide that enables standardization of cataloging terminology and taxonomy between different listing destinations
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Features.css';
 import image from '../../assets/14.jpg';
+import logo from '../../assets/15.png';
 
 export default function Features() {
   return (
@@ -14,7 +15,8 @@ export default function Features() {
                 <div className='content-1 contents-left'>
                   <div>PIM</div>
                   <div>
-                    <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+                    <img src={logo} alt='placeholder'/>
                     <p>
                     Manage centralized Product Information
                       </p>
@@ -23,16 +25,18 @@ export default function Features() {
                 <div className='content-1 contents-left'>
                   <div>DAM</div>
                   <div>
-                    <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+                    <img src={logo} alt='placeholder'/>
                     <p>
                     A global database for all products that are online
                       </p>
                   </div>
                 </div>
                 <div className='content-1 contents-left'>
-                  <div>Case management</div>
+                  <div>CM</div>
                   <div>
-                    <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+                    <img src={logo} alt='placeholder'/>
                     <p>
                     Allows Suppliers to provide work items to the partner for work.
                       </p>
@@ -41,7 +45,8 @@ export default function Features() {
                 <div className='content-1 contents-left'>
                   <div>BI</div>
                   <div>
-                    <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+                    <img src={logo} alt='placeholder'/>
                     <p>
                     BI guides on the effect of each product lines across markets
                       </p>
@@ -53,7 +58,9 @@ export default function Features() {
               <div className='content-1 contents-right'>
                   <div>PXM</div>
                   <div>
-                    <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+                    <img src={logo} alt='placeholder'/>
+
                     <p>
                     From Translation to Image Editing, tools to better user experience
                       </p>
@@ -62,7 +69,8 @@ export default function Features() {
                 <div className='content-1 contents-right'>
                   <div>Markets</div>
                   <div>
-                    <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+                    <img src={logo} alt='placeholder'/>
                     <p>
                     Register Markets and publish information directly into Markets.
                       </p>
@@ -71,7 +79,8 @@ export default function Features() {
                 <div className='content-1 contents-right'>
                   <div>SCM</div>
                   <div>
-                    <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+                    <img src={logo} alt='placeholder'/>
                     <p>
                     Manage inventory of Product lines across warehouses
                       </p>
@@ -80,7 +89,8 @@ export default function Features() {
                 <div className='content-1 contents-right'>
                   <div>EPC</div>
                   <div>
-                    <img src="https://via.placeholder.com/70x70" alt='placeholder'/>
+                    {/* <img src="https://via.placeholder.com/70x70" alt='placeholder'/> */}
+                    <img src={logo} alt='placeholder'/>
                     <p>
                     Enhance your products content and share samples across multiple domains  
                     </p>
