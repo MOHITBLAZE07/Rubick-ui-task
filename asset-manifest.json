@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Rubick-ui-task/static/css/main.8d5a1697.css",
+    "main.js": "/Rubick-ui-task/static/js/main.54c9a8b5.js",
+    "static/media/4.jpg": "/Rubick-ui-task/static/media/4.f6ce7abfff7a46f67436.jpg",
+    "static/media/1.jpg": "/Rubick-ui-task/static/media/1.c26816ef99cc762896fa.jpg",
+    "static/media/3.jpg": "/Rubick-ui-task/static/media/3.6f4749dd69f671774df8.jpg",
+    "static/media/6.jpg": "/Rubick-ui-task/static/media/6.a2b85dcf0fdfd36bc83f.jpg",
+    "static/media/2.jpg": "/Rubick-ui-task/static/media/2.4640309813b3041b5bd9.jpg",
+    "static/media/14.jpg": "/Rubick-ui-task/static/media/14.64df6f405733aee1fe05.jpg",
+    "static/media/7.jpg": "/Rubick-ui-task/static/media/7.aeafef5fc997ba424bc2.jpg",
+    "static/media/8.png": "/Rubick-ui-task/static/media/8.022480fcedc870ede182.png",
+    "static/media/10.png": "/Rubick-ui-task/static/media/10.5689e44bddcc5a00745e.png",
+    "static/media/12.png": "/Rubick-ui-task/static/media/12.8c2a220f680c47f39e67.png",
+    "static/media/9.png": "/Rubick-ui-task/static/media/9.02bd2f5cb5da377e1dd9.png",
+    "static/media/11.png": "/Rubick-ui-task/static/media/11.c63d84f6124b0793ed95.png",
+    "static/media/myntra.jpg": "/Rubick-ui-task/static/media/myntra.04d0504c089c174ed7c9.jpg",
+    "static/media/amazon.jpg": "/Rubick-ui-task/static/media/amazon.0050eca40c264897987e.jpg",
+    "static/media/meesho.jpg": "/Rubick-ui-task/static/media/meesho.76c0097604eeaef30533.jpg",
+    "static/media/15.png": "/Rubick-ui-task/static/media/15.cf826706c7dcc0bcb3b9.png",
+    "index.html": "/Rubick-ui-task/index.html",
+    "main.8d5a1697.css.map": "/Rubick-ui-task/static/css/main.8d5a1697.css.map",
+    "main.54c9a8b5.js.map": "/Rubick-ui-task/static/js/main.54c9a8b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d5a1697.css",
+    "static/js/main.54c9a8b5.js"
+  ]
+}
